@@ -1,0 +1,27 @@
+[credential]
+	helper = cache --timeout=3600
+[alias]
+	a = add
+	aa = add .
+	ap = add --patch
+        c = commit
+        cm = commit -m
+        ca = commit --amend
+        can = commit --amend --no-edit
+        co = checkout
+        cob = checkout -b
+        cp = cherry-pick
+        d = diff
+        dc = diff --cached
+        p = push
+        pf = push --force
+        pu = push -u
+        pr = pull --rebase
+        r = rebase
+        ri = rebase -i
+        rc = rebase --continue
+        ra = rebase --abort
+        rs = rebase --skip
+        s = status
+[init]
+	defaultBranch = main
